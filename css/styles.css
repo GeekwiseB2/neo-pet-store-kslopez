@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700|Satisfy';
+
+/*NAV and Logo*/
+.flexy {
+  display: flex;
+  align-items: flex-end;
+}
+.nav>li>a:hover {
+  color: #ff827b;
+}
+#logo-img {
+  height: 95px;
+}
+
+.lobster-text{
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+}
+
+
+.inline {
+  display: inline;
+}
+
+#logo-text {
+    font-size: 3.5em;
+}
+/*End NAV and Logo*/
+/* Hero Image*/
+#hero-background {
+  height: 450px;
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  background-size:cover;
+}
+
+.sans-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#action-call{
+  color: #fff;
+  font-size: 2em;
+  margin-top: 6%;
+}
+
+/* Featured Products*/
+.thumbnail {
+  background: #edf1f4;
+}
+
+.product-image {
+  padding: 5%;
+}
+
+.purchase-button {
+  background: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.purchase-button:hover {
+  background: #31b0d5;
+  border-color: #31b0d5;
+}
+/* Featured Products Ends*/
+
+/*Footer Begins*/
+footer {
+  background-color: #231f20;
+  height: 135px;
+}
+
+#footer-logo {
+  height: 70px;
+  margin-top: -8px;
+}
+
+.footer-border {
+  border-right: 1px solid #313131;
+}
+
+#footer-padding {
+  padding-top: 20px;
+}
+
+#contact-text, #contact-text a{
+  color: #b8b9ba;
+}
+
+address {
+  margin-left: 4%;
+}
+
+i {
+  margin-right: 2px;
+}
+/*Footer Ends*/
